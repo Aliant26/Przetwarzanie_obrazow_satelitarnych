@@ -1,0 +1,2 @@
+# Przetwarzanie_obrazow_satelitarnych
+nothing special
