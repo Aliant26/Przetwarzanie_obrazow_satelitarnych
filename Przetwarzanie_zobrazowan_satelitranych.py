@@ -41,7 +41,7 @@ usredniajacy = np.ones((3, 3), dtype=np.float32) / 9
 col1, col2 = st.columns(2)
 
 # Wczytanie pliku
-plik = st.file_uploader("Wczytaj zdjęcie (GeoTIFF, JPG, PNG)", type=["tif", "tiff", "jpg", "png"])
+plik = st.file_uploader("Wczytaj zdjęcie", type=["tif", "jpg", "png"])
 
 if plik is not None:
     st.success("Zdjęcie zostało załadowane poprawnie!")
